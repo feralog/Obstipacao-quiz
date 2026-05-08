@@ -83,121 +83,121 @@ header span{font-size:13px;opacity:.8}
 const rawQuestions = [
   {
     question: "Qual é a forma mais comum de obstipação intestinal crônica na prática clínica?",
-    options: ["Trânsito normal — por desentendimento alimentar e inibição crônica dos reflexos", "Trânsito lento (obstipacione vera) — com frequência de 1 evacuação/semana", "Distúrbios da defecação — disfunção do assoalho pélvico", "Aganglionose (Hirschsprung) — causa mais prevalente no adulto", "Obstipação medicamentosa — por opioides e anticolinérgicos"],
+    options: ["Trânsito normal — por erro alimentar e inibição dos reflexos evacuatórios", "Trânsito lento (obstipacione vera) — com frequência de 1 evacuação/semana", "Distúrbios da defecação — disfunção do assoalho pélvico com dissinérgia", "Aganglionose (Hirschsprung) — causa mais prevalente no adulto", "Obstipação medicamentosa — por opioides e anticolinérgicos"],
     correctIndex: 0,
     explanation: "A forma mais comum é a obstipação com trânsito colônico normal, causada por erro alimentar (baixa fibra/hidratação), inibição crônica dos reflexos evacuatórios e tensão biopsicossocial. Trânsito real dentro do normal, mas paciente percebe como obstipação."
   },
   {
     question: "Uma mulher de 28 anos refere 1 evacuação por semana, inchaço abdominal, urgência fecal e reflexo gastro-cólico diminuído. Qual categoria de obstipação ela apresenta?",
-    options: ["Obstipação com trânsito lento (obstipacione vera)", "Obstipação com trânsito normal", "Distúrbio da defecação por disfunção do assoalho pélvico", "Doença de Hirschsprung no adulto", "Obstipação farmacogênica por anticolinérgico"],
+    options: ["Obstipação com trânsito lento (obstipacione vera)", "Obstipação com trânsito normal por erro alimentar", "Distúrbio da defecação por disfunção pélvica", "Doença de Hirschsprung com aganglionose no adulto", "Obstipação farmacogênica por anticolinérgicos"],
     correctIndex: 0,
     explanation: "Trânsito lento: mulheres jovens, 1–2 evacuações/semana, reflexo gastro-cólico diminuído, urgência fecal e inchaço. Causas: alterações nos neurônios do plexo mioentérico, redução de células de Cajal, anormalidades de VIP e óxido nítrico. Casos intensos são pauci-respondedores à dieta."
   },
   {
     question: "Qual reflexo fisiológico é estimulado pela ingestão alimentar e deve ser aproveitado para evacuar logo após o café da manhã?",
-    options: ["Reflexo gastro-cólico", "Reflexo orto-cólico", "Reflexo ceco-cólico", "Reflexo ano-retal", "Reflexo reto-esfincteriano"],
+    options: ["Reflexo gastro-cólico", "Reflexo orto-cólico", "Reflexo ceco-cólico", "Reflexo ano-retal", "Reflexo reto-cólico"],
     correctIndex: 0,
     explanation: "O reflexo gastro-cólico é desencadeado pela ingestão alimentar e promove contrações propulsivas no cólon. É mais intenso quanto maior o intervalo desde a última refeição e deve ser aproveitado — ir ao banheiro logo após o café da manhã é a estratégia comportamental mais eficaz."
   },
   {
     question: "Qual reflexo ocorre quando a ampola retal se distende com volume fecal suficiente, causando relaxamento involuntário do esfíncter interno e contração voluntária do externo?",
-    options: ["Reflexo ano-retal (inibitório reto-anal)", "Reflexo gastro-cólico", "Reflexo orto-cólico", "Reflexo ceco-cólico", "Reflexo de Valsalva"],
+    options: ["Reflexo ano-retal (inibitório)", "Reflexo gastro-cólico pós-prandial", "Reflexo orto-cólico postural", "Reflexo ceco-cólico intestinal", "Reflexo de Valsalva respiratório"],
     correctIndex: 0,
     explanation: "O reflexo ano-retal (inibitório reto-anal): distensão da ampola retal → relaxamento involuntário do esfíncter anal interno (músculo liso, inervação autonômica) + contração voluntária do externo (músculo estriado, inervação somática). Esse mecanismo permite o controle consciente da defecação."
   },
   {
     question: "Por que a posição de cócoras facilita a evacuação em comparação com a posição sentada no vaso sanitário?",
-    options: ["Retifica o ângulo anorretal ao relaxar o músculo puborretalis, reduzindo a resistência à passagem das fezes", "Aumenta a pressão intra-abdominal por compressão diafragmática", "Ativa o reflexo gastro-cólico por compressão da parede abdominal", "Reduz o tônus do esfíncter externo por estimulação dos nervos pudendos", "Melhora o esvaziamento gástrico por aceleração do trânsito"],
+    options: ["Relaxa o músculo puborretalis e retifica o ângulo anorretal", "Aumenta a pressão intra-abdominal por compressão diafragmática", "Ativa o reflexo gastro-cólico por compressão da parede abdominal", "Reduz o tônus do esfíncter externo por estimulação dos nervos pudendos", "Melhora o esvaziamento gástrico por aceleração do trânsito"],
     correctIndex: 0,
     explanation: "Na posição sentada (vaso comum), o músculo puborretalis mantém um ângulo anorretal mais agudo (~90°), aumentando a resistência. Na posição de cócoras, o puborretalis relaxa → ângulo anorretal se retifica (~35°) → menor resistência → evacuação mais rápida e completa. Banqueta de apoio para os pés reproduce parcialmente esse efeito."
   },
   {
     question: "Quais alterações do sistema nervoso entérico caracterizam a obstipação de trânsito lento?",
-    options: ["Redução das células de Cajal + alterações nos neurônios do plexo mioentérico + anormalidades de VIP e óxido nítrico", "Aumento dos neurônios do plexo mioentérico com hiperatividade motora", "Redução das células de Cajal + aumento de acetilcolina e substância P", "Somente redução das células de Cajal sem alterações neurais adicionais", "Alterações exclusivamente no plexo submucoso (de Meissner) sem envolvimento mioentérico"],
+    options: ["Redução de células de Cajal, neurônios mioentéricos e anormalidades de VIP e óxido nítrico", "Aumento dos neurônios do plexo mioentérico com hiperatividade motora", "Redução das células de Cajal + aumento de acetilcolina e substância P", "Somente redução das células de Cajal sem alterações neurais adicionais", "Alterações exclusivamente no plexo submucoso (de Meissner) sem envolvimento mioentérico"],
     correctIndex: 0,
     explanation: "Obstipação de trânsito lento: redução das células de Cajal (marcapassos GI), redução de neurônios no plexo mioentérico, anormalidades nos neurotransmissores inibitórios VIP (peptídeo intestinal vasoativo) e óxido nítrico. Exemplos: Hirschsprung (aganglionose congênita) e Chagas (destruição dos plexos)."
   },
   {
     question: "Em relação à Doença de Hirschsprung, qual é o mecanismo fisiopatológico e quando se manifesta tipicamente?",
-    options: ["Ausência de células ganglionares no intestino distal por falha na migração de células da crista neural durante a embriogênese — manifesta-se tipicamente na infância", "Destruição dos plexos mioentéricos pelo Trypanosoma cruzi — manifesta-se no adulto jovem", "Redução progressiva de células de Cajal por inflamação autoimune — manifesta-se em qualquer idade", "Aganglionose adquirida por neuropatia diabética — manifesta-se após 20 anos de DM", "Estenose congênita do canal anal por fusão das pregas anais — diagnosticada ao nascimento"],
+    options: ["Aganglionose por falha na migração das células da crista neural — manifesta-se na infância", "Destruição dos plexos mioentéricos pelo Trypanosoma cruzi — manifesta-se no adulto jovem", "Redução progressiva de células de Cajal por inflamação autoimune — manifesta-se em qualquer idade", "Aganglionose adquirida por neuropatia diabética — manifesta-se após 20 anos de DM", "Estenose congênita do canal anal por fusão das pregas anais — diagnosticada ao nascimento"],
     correctIndex: 0,
     explanation: "Hirschsprung: falha na migração de células da crista neural durante a embriogênese → aganglionose (ausência de células ganglionares) do intestino distal. Tipicamente manifesta-se na infância (não passar mecônio nas primeiras 48h, abdome distendido). A Doença de Chagas provoca quadro similar no adulto, mas por destruição dos plexos pelo parasita."
   },
   {
     question: "Qual exame laboratorial deve ser SEMPRE solicitado na investigação de obstipação crônica por ser causa frequentemente esquecida?",
-    options: ["TSH (para excluir hipotireoidismo)", "Colonoscopia (para excluir CCR)", "Hemograma completo (para excluir anemia)", "Glicemia de jejum (para excluir DM)", "Cálcio sérico (para excluir hipercalcemia)"],
+    options: ["TSH (para excluir hipotireoidismo)", "Colonoscopia (para excluir CCR)", "Hemograma completo (para anemia)", "Glicemia de jejum (para excluir DM)", "Cálcio sérico (para hipercalcemia)"],
     correctIndex: 0,
     explanation: "TSH é mandatório na avaliação de obstipação — hipotireoidismo é causa secundária tratável e comumente esquecida (reduz a motilidade intestinal por redução do metabolismo basal). TSH, glicemia, eletrólitos (Ca²⁺, K⁺) e creatinina compõem a bateria mínima laboratorial."
   },
   {
     question: "Para um paciente de 48 anos com obstipação crônica e sangramento retal, sem outras queixas, qual o próximo passo?",
-    options: ["Colonoscopia — idade > 45 anos ou sinais de alarme obrigam investigação completa", "Retossigmoidoscopia flexível — suficiente para excluir lesões distais", "Iniciar tratamento com fibras e laxantes e reavaliação em 3 meses", "Anoscopia para excluir hemorroidas como única causa", "Pesquisa de sangue oculto nas fezes e aguardar resultado"],
+    options: ["Colonoscopia — obrigatória com > 45 anos ou sinais de alarme", "Retossigmoidoscopia — suficiente para excluir lesões distais", "Iniciar tratamento com fibras e laxantes e reavaliação em 3 meses", "Anoscopia para excluir hemorroidas como única causa", "Pesquisa de sangue oculto nas fezes e aguardar resultado"],
     correctIndex: 0,
     explanation: "Colonoscopia: indicada em pacientes > 45 anos ou com sinais de alarme (sangramento, perda ponderal, anemia, história familiar de CCR). Retossigmoidoscopia é usada em < 45 anos sem sinais de alarme. Com 48 anos + sangramento, colonoscopia é obrigatória."
   },
   {
     question: "Paciente relata fezes escuras, pastosas, com odor forte. Qual o nome correto desse tipo de sangramento e qual o próximo passo?",
-    options: ["Melena — sangramento de TGI superior → EDA urgente", "Enterorragia — sangramento de TGI inferior → colonoscopia", "Hematoquezia — sangramento de reto/ânus → anoscopia", "Sangramento orificial — hemorroida → proctoscopia", "Rectorragia — sangramento de cólon sigmoide → retossigmoidoscopia"],
+    options: ["Melena — sangramento de TGI superior → EDA urgente", "Enterorragia — sangramento de TGI inferior → colonoscopia", "Hematoquezia — sangramento de reto/ânus → anoscopia", "Sangramento orificial — hemorroida → proctoscopia", "Rectorragia — sangramento do sigmoide → retossigmoidoscopia"],
     correctIndex: 0,
     explanation: "Melena: fezes escuras, pastosas, com odor forte (hematina = hemoglobina digerida pelo ácido gástrico e enzimas). Indica sangramento de TGI superior (esôfago, estômago, duodeno). Conduta: EDA urgente. Atenção: ferro e polivitamínicos também tingem as fezes de preto — perguntar sobre uso."
   },
   {
     question: "Qual é a diferença entre enterorragia e hematoquezia?",
-    options: ["Enterorragia: sangue vivo misturado nas fezes (TGI inferior); hematoquezia: sangue vivo e fresco que tinge toda a superfície da água (reto/ânus)", "Enterorragia: fezes escuras com sangue digerido; hematoquezia: sangue vivo nas fezes", "Enterorragia: sangramento de veias esofágicas; hematoquezia: sangramento de varizes retais", "Hematoquezia e enterorragia são sinônimos — ambos indicam sangramento de TGI inferior", "Enterorragia: sangramento vivo do TGI superior; hematoquezia: sangramento escuro do TGI inferior"],
+    options: ["Enterorragia: sangue vivo nas fezes (TGI inferior); hematoquezia: sangue que tinge a água do vaso (reto/ânus)", "Enterorragia: fezes escuras com sangue digerido; hematoquezia: sangue vivo nas fezes", "Enterorragia: sangramento de veias esofágicas; hematoquezia: sangramento de varizes retais", "Hematoquezia e enterorragia são sinônimos — ambos indicam sangramento de TGI inferior", "Enterorragia: sangramento vivo do TGI superior; hematoquezia: sangramento escuro do TGI inferior"],
     correctIndex: 0,
     explanation: "Enterorragia: sangue vivo misturado às fezes, indicando sangramento do TGI inferior (cólon, sigmoide, reto proximal). Hematoquezia: sangue vivo, fresco, que tinge toda a superfície da água do vaso — indica sangramento anorretal muito distal (reto distal, canal anal). Ambos motivam investigação endoscópica baixa."
   },
   {
     question: "Um paciente relata sangramento somente no papel higiênico, de cor vermelho-vivo, sem mistura com as fezes. Qual o diagnóstico mais provável?",
-    options: ["Sangramento orificial — hemorroidas ou fissura anal", "Hematoquezia por adenocarcinoma retal distal", "Enterorragia por diverticulose colônica", "Melena por úlcera péptica sangrante", "Enterorragia por doença inflamatória intestinal"],
+    options: ["Sangramento orificial — hemorroidas ou fissura anal", "Hematoquezia por adenocarcinoma retal distal", "Enterorragia por diverticulose do cólon descendente", "Melena por úlcera péptica sangrante no TGI superior", "Enterorragia por doença inflamatória intestinal"],
     correctIndex: 0,
     explanation: "Sangramento orificial: sangue vermelho-vivo somente no papel higiênico ou na superfície das fezes, sem mistura — indica origem no canal anal (hemorroidas, fissura anal). Embora benigno na maioria, não dispensar investigação endoscópica se > 45 anos ou com outros sinais de alarme."
   },
   {
     question: "Qual achado ao toque retal indica anismus (disfunção evacuatória por contração paradoxal do esfíncter)?",
-    options: ["Esfíncter hipertônico + descenso do assoalho pélvico < 1 cm ao esforço (inabilidade de relaxamento)", "Esfíncter hipotônico + descenso > 3,5 cm (flacidez perineal)", "Fecaloma impactado sem tônus esfincteriano", "Estenose fibrótica pós-cirúrgica com esfíncter rígido", "Massas duras irregulares sugestivas de neoplasia"],
+    options: ["Esfíncter hipertônico, descenso perineal < 1 cm ao esforço", "Esfíncter hipotônico com descenso perineal > 3,5 cm", "Fecaloma impactado sem tônus esfincteriano", "Estenose fibrótica pós-cirúrgica com esfíncter rígido", "Massas duras irregulares sugestivas de neoplasia"],
     correctIndex: 0,
     explanation: "Anismus (disfunção evacuatória): contração paradoxal do puborretal e do esfíncter externo durante o esforço → não relaxa quando deveria. No toque: hipertonia + descenso perineal < 1 cm ao esforço (assoalho não desce = não relaxa). Descenso normal: 1–3,5 cm. > 3,5 cm = flacidez (parto/esforço crônico)."
   },
   {
     question: "Qual é a sequência correta do tratamento escalonado da obstipação crônica?",
-    options: ["Medidas comportamentais → fibras suplementares → laxantes osmóticos → laxantes estimulantes (catárticos)", "Laxantes catárticos imediatos → fibras → hidratação → exercício", "Colonoscopia → antibioticoterapia → probióticos → cirurgia", "Laxantes estimulantes → osmóticos → fibras → cirurgia", "Enemas de limpeza → laxantes osmóticos → biofeedback → cirurgia"],
+    options: ["Comportamentais → fibras → laxantes osmóticos → catárticos", "Laxantes catárticos imediatos → fibras → hidratação → exercício", "Colonoscopia → antibioticoterapia → probióticos → cirurgia", "Laxantes estimulantes → osmóticos → fibras → cirurgia", "Enemas de limpeza → laxantes osmóticos → biofeedback → cirurgia"],
     correctIndex: 0,
     explanation: "Escalonamento: (1) medidas comportamentais — fibras 25–38 g/dia, hidratação 30–50 mL/kg/24h, exercício 150 min/semana, aproveitamento dos reflexos; (2) fibras suplementares (psyllium); (3) laxantes osmóticos (lactulose, PEG, Mg(OH)₂); (4) laxantes estimulantes/catárticos (bisacodil, sene) como último recurso."
   },
   {
     question: "Por que o uso crônico de laxantes catárticos (bisacodil, sene) deve ser evitado?",
-    options: ["Geram habituação, melanosis coli (pigmentação da mucosa) e podem piorar a obstipação a longo prazo", "São nefrotóxicos e causam insuficiência renal com uso prolongado", "Causam dependência psicológica sem efeitos colaterais orgânicos", "São ineficazes na obstipação crônica e só funcionam na obstipação aguda", "Causam diarreia osmótica intratável por desequilíbrio de eletrólitos"],
+    options: ["Habituação, melanosis coli e piora da obstipação com uso prolongado", "São nefrotóxicos e causam insuficiência renal com uso prolongado", "Causam dependência psicológica sem efeitos colaterais orgânicos", "São ineficazes na obstipação crônica e só funcionam na obstipação aguda", "Causam diarreia osmótica intratável por desequilíbrio de eletrólitos"],
     correctIndex: 0,
     explanation: "Laxantes catárticos de antraquinona (sene, cáscara): uso crônico → melanosis coli (lipofuscinose da mucosa colônica — diagnóstico visual na colonoscopia), habituação (cólon 'catártico' — perda da motilidade própria), possível piora da obstipação. Reservar como último recurso em casos refratários."
   },
   {
     question: "Qual é a hidratação diária recomendada para o tratamento não farmacológico da obstipação?",
-    options: ["30–50 mL/kg/24h", "1–1,5 L/dia independente do peso", "2 L/dia fixo para todos os pacientes", "10–20 mL/kg/24h", "50–70 mL/kg/24h"],
+    options: ["30–50 mL/kg/dia", "15–20 mL/kg/dia", "60–80 mL/kg/dia", "10–20 mL/kg/dia", "50–70 mL/kg/dia"],
     correctIndex: 0,
     explanation: "Hidratação recomendada: 30–50 mL/kg/24h. Para um adulto de 70 kg: 2,1–3,5 L/dia. A hidratação adequada é fundamental para amolecer as fezes e facilitar o trânsito intestinal — junto com fibras e exercício, compõe o pilar comportamental do tratamento."
   },
   {
     question: "A amitriptilina, usada como indutora de sono em baixas doses, causa obstipação por qual mecanismo?",
-    options: ["Efeito anticolinérgico — bloqueia receptores muscarínicos M3 no TGI, reduzindo a motilidade intestinal", "Efeito serotoninérgico — estimula receptores 5-HT4 e retarda o esvaziamento gástrico", "Efeito opioide — age nos receptores µ da parede intestinal como morfina", "Efeito alfa-adrenérgico — aumenta o tônus do esfíncter anal interno", "Efeito dopaminérgico — estimula receptores D2 e reduz o peristaltismo"],
+    options: ["Efeito anticolinérgico — bloqueio muscarínico M3 reduz a motilidade intestinal", "Efeito serotoninérgico — estimula receptores 5-HT4 e retarda o esvaziamento gástrico", "Efeito opioide — age nos receptores µ da parede intestinal como morfina", "Efeito alfa-adrenérgico — aumenta o tônus do esfíncter anal interno", "Efeito dopaminérgico — estimula receptores D2 e reduz o peristaltismo"],
     correctIndex: 0,
     explanation: "Antidepressivos tricíclicos (amitriptilina, nortriptilina): potente efeito anticolinérgico (bloqueio de receptores muscarínicos M3 no TGI) → redução da motilidade intestinal, redução da secreção e ressecamento das fezes → obstipação. É um dos grupos farmacológicos mais obstipantes após os opioides."
   },
   {
     question: "Paciente com obstipação, fadiga, ganho de peso, pele seca e bradicardia. Qual o diagnóstico a ser excluído e qual exame solicitar?",
-    options: ["Hipotireoidismo — solicitar TSH", "Diabetes mellitus — solicitar glicemia de jejum e HbA1c", "Doença de Addison — solicitar cortisol basal e ACTH", "Hipercalcemia — solicitar cálcio sérico total e ionizado", "Doença de Parkinson — solicitar neuroimagem e avaliação neurológica"],
+    options: ["Hipotireoidismo — solicitar TSH e T4 livre", "Diabetes mellitus — solicitar glicemia em jejum", "Doença de Addison — solicitar cortisol basal", "Hipercalcemia — solicitar cálcio sérico ionizado", "Doença de Parkinson — solicitar neuroimagem"],
     correctIndex: 0,
     explanation: "A tríade fadiga + ganho de peso + pele seca + bradicardia sugere hipotireoidismo — causa metabólica de obstipação por redução do metabolismo e da motilidade intestinal. TSH é o exame de triagem mais sensível e deve ser solicitado em todo paciente com obstipação crônica."
   },
   {
     question: "Qual anormalidade estrutural do assoalho pélvico envolve a herniação da parede anterior do reto em direção à vagina, podendo necessitar de manobra digital vaginal para evacuar?",
-    options: ["Retocele", "Sigmoidocele obstrutiva", "Intussuscepção retal (prolapso interno)", "Descida perineal excessiva", "Aganglionose segmentar"],
+    options: ["Retocele — herniação do reto para a vagina", "Sigmoidocele — ptose do sigmoide pélvico", "Intussuscepção — prolapso retal interno", "Descida perineal — flacidez do assoalho pélvico", "Aganglionose — ausência de células ganglionares"],
     correctIndex: 0,
     explanation: "Retocele: herniação da parede retal anterior para a vagina. Ocorre especialmente em mulheres multíparas pós-parto. A paciente frequentemente relata necessidade de fazer pressão digital na vagina para conseguir evacuar. Diagnóstico: defecografia. Tratamento: fisioterapia pélvica ou cirurgia reparadora."
   },
   {
     question: "Qual reflexo defecatório é desencadeado pela posição ereta após período prolongado de decúbito (ex.: ao acordar de manhã)?",
-    options: ["Reflexo orto-cólico", "Reflexo gastro-cólico", "Reflexo ceco-cólico", "Reflexo ano-retal", "Reflexo de postura de Valsalva"],
+    options: ["Reflexo orto-cólico", "Reflexo gastro-cólico", "Reflexo ceco-cólico", "Reflexo ano-retal", "Reflexo de Valsalva"],
     correctIndex: 0,
     explanation: "Reflexo orto-cólico: desencadeado pela mudança da posição horizontal para vertical (ao levantar da cama). Estimula a motilidade colônica. Mais intenso quanto maior o intervalo em decúbito — por isso, muitas pessoas sentem vontade de evacuar logo ao acordar. Deve ser aproveitado para estabelecer o hábito evacuatório matinal."
   }
